@@ -1,0 +1,194 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Manzana Roja",
+      "categoria": "Frutas",
+      "precio": 35.5,
+      "stock": 150,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-15",
+      "proveedor": "Frutas del Valle"
+    },
+    {
+      "id": 2,
+      "nombre": "Plátano",
+      "categoria": "Frutas",
+      "precio": 25,
+      "stock": 200,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-10",
+      "proveedor": "Tropicales del Sur"
+    },
+    {
+      "id": 3,
+      "nombre": "Naranja Valencia",
+      "categoria": "Frutas",
+      "precio": 28,
+      "stock": 180,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-20",
+      "proveedor": "Cítricos Premium"
+    },
+    {
+      "id": 4,
+      "nombre": "Fresa",
+      "categoria": "Frutas",
+      "precio": 85,
+      "stock": 50,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-05",
+      "proveedor": "Berries Frescos"
+    },
+    {
+      "id": 5,
+      "nombre": "Sandía",
+      "categoria": "Frutas",
+      "precio": 18,
+      "stock": 80,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-12",
+      "proveedor": "Frutas del Valle"
+    },
+    {
+      "id": 6,
+      "nombre": "Uva Verde",
+      "categoria": "Frutas",
+      "precio": 65,
+      "stock": 45,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-08",
+      "proveedor": "Viñedos del Norte"
+    },
+    {
+      "id": 7,
+      "nombre": "Piña",
+      "categoria": "Frutas",
+      "precio": 32,
+      "stock": 60,
+      "unidad": "pieza",
+      "fechaCaducidad": "2026-02-18",
+      "proveedor": "Tropicales del Sur"
+    },
+    {
+      "id": 8,
+      "nombre": "Mango Manila",
+      "categoria": "Frutas",
+      "precio": 55,
+      "stock": 90,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-14",
+      "proveedor": "Tropicales del Sur"
+    },
+    {
+      "id": 9,
+      "nombre": "Papaya",
+      "categoria": "Frutas",
+      "precio": 38,
+      "stock": 70,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-11",
+      "proveedor": "Frutas del Valle"
+    },
+    {
+      "id": 10,
+      "nombre": "Pera Anjou",
+      "categoria": "Frutas",
+      "precio": 42,
+      "stock": 100,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-22",
+      "proveedor": "Frutas del Valle"
+    },
+    {
+      "id": 11,
+      "nombre": "Aguacate Hass",
+      "categoria": "Frutas",
+      "precio": 68,
+      "stock": 120,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-09",
+      "proveedor": "Aguacates Premium"
+    },
+    {
+      "id": 12,
+      "nombre": "Kiwi",
+      "categoria": "Frutas",
+      "precio": 75,
+      "stock": 55,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-16",
+      "proveedor": "Importadora Frutal"
+    },
+    {
+      "id": 13,
+      "nombre": "Limón",
+      "categoria": "Frutas",
+      "precio": 22,
+      "stock": 140,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-25",
+      "proveedor": "Cítricos Premium"
+    },
+    {
+      "id": 14,
+      "nombre": "Durazno",
+      "categoria": "Frutas",
+      "precio": 48,
+      "stock": 65,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-07",
+      "proveedor": "Frutas del Valle"
+    },
+    {
+      "id": 15,
+      "nombre": "Melón",
+      "categoria": "Frutas",
+      "precio": 24,
+      "stock": 96,
+      "unidad": "kg",
+      "fechaCaducidad": "2026-02-13",
+      "proveedor": "Frutas del Valle"
+    }
+  ],
+  "entradas": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "nombreProducto": "Manzana Roja",
+      "cantidad": 50,
+      "fecha": "2026-01-28",
+      "proveedor": "Frutas del Valle",
+      "precioCompra": 30
+    },
+    {
+      "id": 2,
+      "productoId": 2,
+      "nombreProducto": "Plátano",
+      "cantidad": 80,
+      "fecha": "2026-01-29",
+      "proveedor": "Tropicales del Sur",
+      "precioCompra": 20
+    }
+  ],
+  "salidas": [
+    {
+      "id": 1,
+      "productoId": 1,
+      "nombreProducto": "Manzana Roja",
+      "cantidad": 15,
+      "fecha": "2026-01-29",
+      "motivo": "Venta",
+      "cliente": "Supermercado Central"
+    },
+    {
+      "id": 2,
+      "productoId": 3,
+      "nombreProducto": "Naranja Valencia",
+      "cantidad": 20,
+      "fecha": "2026-01-30",
+      "motivo": "Venta",
+      "cliente": "Mercado Local"
+    }
+  ]
+}
